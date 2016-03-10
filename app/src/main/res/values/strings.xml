@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Treulla Steps</string>
+    <string name="title_activity_registrazione">Registrazione</string>
+
+    <string name="insert_name_training">Dai un nome a questo allenamento:</string>
+
+
+    <string name="name">action_settings</string>
+    <string name="Bienvenue">Benvenuto</string>
+    <string name="sum">Treulla Steps è una rivoluzionaria applicazione Sardo-Marocchina per il
+    monitoraggio della tua attività sportiva.
+    Allaccia le scarpe e preparati a tornare in
+    forma o a migliorare le tue prestazioni sportive,
+    Treulla Steps è il miglior compagno qualunque siano le tue esigenze.</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Benvenuti</string>
+    <string name="title_activity_second">Benvenuti</string>
+    <string name="title_activity_third">Benvenuti</string>
+
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_about">About</string>
+    <string name="action_settings">Settings</string>
+    <string name="settings_title">Settings</string>
+    <string name="option1_title">Rythme</string>
+    <string name="option1_summary">(step/min)</string>
+    <string name="option2_title">Frequency Distance</string>
+    <string name="option2_summary">(m)</string>
+
+    <string name="title_activity_sessions_list">SessionsList</string>
+    <string name="title_activity_database_test">DatabaseTest</string>
+    <string name="title_activity_save_session">SaveSession</string>
+    <string name="title_activity_session_view">SessionView</string>
+
+
+</resources>

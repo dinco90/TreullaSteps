@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!--<EditTextPreference
+        android:defaultValue="150"
+        android:key="rythme"
+        android:summary="@string/option1_summary"
+        android:title="@string/option1_title" />
+    <EditTextPreference
+        android:defaultValue="50"
+        android:key="option2"
+        android:summary="@string/option2_summary"
+        android:title="@string/option2_title" />-->
+    <EditTextPreference
+        android:key="RYTHME"
+        android:title="Rythme"
+        android:summary="step/min"
+        android:dialogTitle="Configure The Rythme" />
+    <EditTextPreference
+        android:key="DIST"
+        android:title="Frequency Distance"
+        android:summary="m"
+        android:dialogTitle="Configure The Frequency Distance" />
+</PreferenceScreen>

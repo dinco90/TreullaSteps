@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonStartTraining"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Training" />
+
+        <Button
+            android:id="@+id/buttonPauseTraining"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pause Training" />
+
+        <Button
+            android:id="@+id/buttonStopTraining"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop Training" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ViewLivello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="349dp">
+
+        <TextView
+            android:id="@+id/tvTitoloApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Esempio uso GPS"></TextView>
+
+        <TextView
+            android:id="@+id/tvLatitudineLabel"
+            android:layout_width="85dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvTitoloApp"
+            android:text="Latitudine"></TextView>
+
+        <TextView
+            android:id="@+id/tvLatitudine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tvLongitudine"
+            android:layout_alignStart="@+id/tvLongitudine"
+            android:text="No data"></TextView>
+
+        <TextView
+            android:id="@+id/tvLongitudineLabel"
+            android:layout_width="85dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvLatitudineLabel"
+            android:text="Longitudine"></TextView>
+
+        <TextView
+            android:id="@+id/tvLongitudine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvLongitudineLabel"
+            android:layout_alignBottom="@+id/tvLongitudineLabel"
+            android:layout_alignStart="@+id/tvSpeed"
+            android:text="No data"></TextView>
+
+        <TextView
+            android:id="@+id/tvSpeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/TotalDistance"
+            android:layout_below="@+id/tvLongitudineLabel"
+            android:text="No data"></TextView>
+
+        <TextView
+            android:id="@+id/SpeedLabel"
+            android:layout_width="85dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/tvSpeed"
+            android:text="Speed" />
+
+        <TextView
+            android:id="@+id/totalDistanceView"
+            android:layout_width="85dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/SpeedLabel"
+            android:text="Distanza Totale" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="85dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/midleSpeed"
+            android:text="Velocità media" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="85dip"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView4"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="51dp"
+            android:text="Passo Medio" />
+
+        <TextView
+            android:id="@+id/TotalDistance"
+            android:layout_width="85dip"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/totalDistanceView"
+            android:layout_alignBottom="@+id/totalDistanceView"
+            android:layout_alignStart="@+id/midleSpeed"
+            android:text="No data" />
+
+        <TextView
+            android:id="@+id/midleSpeed"
+            android:layout_width="85dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/totalDistanceView"
+            android:layout_centerHorizontal="true"
+            android:text="No data" />
+
+        <TextView
+            android:id="@+id/stepMedioXM"
+            android:layout_width="85dip"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView"
+            android:layout_alignStart="@+id/speedMedioXM"
+            android:text="No data" />
+
+        <TextView
+            android:id="@+id/passoMedioS"
+            android:layout_width="85dip"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/midleSpeed"
+            android:layout_alignTop="@+id/textView3"
+            android:text="No data" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="85dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="Velocità media su X M" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="85dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="122dp"
+            android:text="passo medio su X Metri" />
+
+        <TextView
+            android:id="@+id/speedMedioXM"
+            android:layout_width="85dip"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tvTitoloApp"
+            android:layout_centerVertical="true"
+            android:text="No Data" />
+    </RelativeLayout>
+
+</LinearLayout>
